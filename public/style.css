@@ -1,0 +1,57 @@
+body, html {
+    background-color: rgb(15, 16, 37);
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 2px;
+  }
+
+.light-mode {
+    background-color: rgba(255, 255, 255, 0.959);
+    transition: .5s ease;
+}
+
+#light {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 1220px;
+}
+
+
+h1 {
+    color: white;
+    font-size: 30px; 
+    text-align: center;
+    font-weight: bold;
+}
+
+.zoom {
+    cursor: pointer;
+    transition-property: all;
+    transition-delay: 0.2s;
+    transition-timing-function: linear;
+}
+
+.zoom:hover {
+    transform: scale(2);
+}
+
+.horizline {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+
+
+footer{
+    background-color: black;
+    height: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+#footertext {
+    color: white;
+}
