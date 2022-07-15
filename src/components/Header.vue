@@ -16,7 +16,26 @@
 
 </template>
 
-<style scoped>
+<script>
+function lightFunction() {
+  var element = document.body;
+  element.classList.toggle("light-mode");
+  console.log(element);
+}
+</script>
+
+<style>
+.light-mode {
+    background-color: rgba(255, 255, 255, 0.959);
+    transition: .5s ease;
+}
+
+#light {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 1220px;
+}
 .header-image {
     background-image: url("/images/header.png");
     background-repeat: no-repeat;

@@ -54,4 +54,5 @@ export default {
     margin-right: auto;
     padding: 30px;
 }
+
 </style>
