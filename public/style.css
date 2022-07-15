@@ -53,13 +53,13 @@ footer{
     height: 40%;
   }
   
-  .swiper-slide {
+.swiper-slide {
     background-position: center;
     background-size: cover;
-  }
+}
   
-  .swiper-slide img {
+.swiper-slide img {
     display: block;
     width: 100%;
-  }
+}
   

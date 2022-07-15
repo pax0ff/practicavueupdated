@@ -1,9 +1,10 @@
 <template>
 <div class="about" id="c1">
                 <h1>ABOUT US</h1> 
-                <p class="abouttextcss"><em>Providing legendary mobile games.</em></p>
-                <p class="abouttextcss"><em>Dedicated team of mobile games developers</em></p>
-                <p class="abouttextcss"><em>We are based in Bucharest.</em></p>
+                <p class="abouttextcss">
+                    <em>Providing legendary mobile games.<br>
+                        Dedicated team of mobile games developers<br>
+                        We are based in Bucharest.</em></p>
                 <br>
                        
                 <h1>FOLLOW US</h1>
@@ -25,6 +26,7 @@
 export default {
     name: 'About',
 };
+
 </script>
 
 <style scoped>

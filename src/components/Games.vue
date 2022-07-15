@@ -23,11 +23,10 @@
     /></swiper-slide>
   </swiper>
 </template>
+
 <script>
-// Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from "swiper/vue";
 
-// Import Swiper styles
 import "swiper/css";
 
 import "swiper/css/effect-fade";
@@ -36,7 +35,6 @@ import "swiper/css/pagination";
 
 import "../../public/style.css";
 
-// import required modules
 import { EffectFade, Navigation, Pagination } from "swiper";
 
 export default {
