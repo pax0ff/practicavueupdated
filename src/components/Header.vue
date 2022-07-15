@@ -12,6 +12,8 @@
  <!-- HEADER BACKGROUND IMAGE-->
         <div class="header-image" id="c0">
         </div> 
+
+
 </template>
 
 <style scoped>

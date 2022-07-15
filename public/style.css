@@ -36,14 +36,6 @@ h1 {
     transform: scale(2);
 }
 
-.horizline {
-    display: block;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 25px;
-}
-
 
 footer{
     background-color: black;
@@ -55,3 +47,19 @@ footer{
 #footertext {
     color: white;
 }
+
+.swiper {
+    width: 45%;
+    height: 40%;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  
