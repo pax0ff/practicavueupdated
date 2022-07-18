@@ -16,10 +16,12 @@
  <img src="../images/horizline.png" alt="line" class="horizline">
 
 <ComingSoon></ComingSoon>
+<Countdown></Countdown>
 
  <img src="../images/horizline.png" alt="line" class="horizline">
 
 <Contact></Contact>
+
 
 </template>
 
@@ -30,9 +32,9 @@ import Header from './components/Header.vue'
 import About from './components/About.vue'
 import Games from './components/Games.vue'
 import Play from './components/Play.vue'
+import Countdown from './components/Countdown.vue'
 
 export default {
-
   name: 'App',
   components: {
    Header, 
@@ -40,7 +42,8 @@ export default {
    Games,
    Play,
    ComingSoon,
-   Contact
+   Contact,
+   Countdown
   }
 }
 </script>
@@ -53,7 +56,6 @@ export default {
     margin-right: auto;
     padding: 30px;
 }
-
 .test{
   color:white;
   font-size: 30px;

@@ -1,5 +1,4 @@
 <template>
- <!-- NAVBAR -->
     <div class="navbar">
         <a class="active" href="#c0"><i class="fa fa-fw fa-home"></i>HOME</a>
         <a href="#c1"><i class="fa fa-user"> ABOUT</i> </a>
@@ -8,10 +7,8 @@
         <a href="#c4"><i class="fa-solid fa-envelope"> CONTACT</i></a>
     </div> 
         
- <!-- HEADER BACKGROUND IMAGE-->
     <div class="header-image" id="c0">
     </div> 
-
 
 </template>
 
