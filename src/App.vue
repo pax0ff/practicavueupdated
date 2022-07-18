@@ -42,8 +42,6 @@ export default {
    Contact
   }
 }
-
-
 </script>
 
 <style scoped>  
@@ -54,5 +52,4 @@ export default {
     margin-right: auto;
     padding: 30px;
 }
-
 </style>

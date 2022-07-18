@@ -1,13 +1,13 @@
 <template>
 <div class="play" id="c3">
-            <h2 class="playtext">PLAY ON:</h2>
-            <a href="https://play.google.com/store/apps/details?id=com.TopLexGames.CaptainSmashTok&gl=RO" target="_blank">
-                <img class="android" src="../../images/google-play-badge.png">
-            </a>
-            <a href="https://www.apple.com/app-store/" target="_blank"> 
-                <img class="apple" src="../../images/apple.png">
-            </a>
-        </div>
+    <h2 class="playtext">PLAY ON:</h2>
+        <a href="https://play.google.com/store/apps/details?id=com.TopLexGames.CaptainSmashTok&gl=RO" target="_blank">
+            <img class="android" src="../../images/google-play-badge.png">
+        </a>
+        <a href="https://www.apple.com/app-store/" target="_blank"> 
+            <img class="apple" src="../../images/apple.png">
+        </a>
+</div>
 </template>
 
 <script>

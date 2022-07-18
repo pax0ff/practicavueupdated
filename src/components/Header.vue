@@ -1,27 +1,23 @@
 <template>
  <!-- NAVBAR -->
-        <div class="navbar">
-            <a class="active" href="#c0"><i class="fa fa-fw fa-home"></i>HOME</a>
-            <a href="#c1"><i class="fa fa-user"> ABOUT</i> </a>
-            <a href="#c2"><i class="fa fa-gamepad"> GAMES</i></a>
-            <a href="#c3"><i class="fa-solid fa-mobile-screen"> PLATFORMS</i></a>
-            <a href="#c4"><i class="fa-solid fa-envelope"> CONTACT</i></a>
-            <a button onclick="lightFunction()" id="light"><i class="fa-solid fa-moon"></i>LIGHT MODE</a>
-        </div> 
+    <div class="navbar">
+        <a class="active" href="#c0"><i class="fa fa-fw fa-home"></i>HOME</a>
+        <a href="#c1"><i class="fa fa-user"> ABOUT</i> </a>
+        <a href="#c2"><i class="fa fa-gamepad"> GAMES</i></a>
+        <a href="#c3"><i class="fa-solid fa-mobile-screen"> PLATFORMS</i></a>
+        <a href="#c4"><i class="fa-solid fa-envelope"> CONTACT</i></a>
+        <a button onclick="lightFunction()" id="light"><i class="fa-solid fa-moon"></i>LIGHT MODE</a>
+    </div> 
         
  <!-- HEADER BACKGROUND IMAGE-->
-        <div class="header-image" id="c0">
-        </div> 
+    <div class="header-image" id="c0">
+    </div> 
 
 
 </template>
 
 <script>
-function lightFunction() {
-  var element = document.body;
-  element.classList.toggle("light-mode");
-  console.log(element);
-}
+
 </script>
 
 <style>
