@@ -6,7 +6,6 @@
         <a href="#c2"><i class="fa fa-gamepad"> GAMES</i></a>
         <a href="#c3"><i class="fa-solid fa-mobile-screen"> PLATFORMS</i></a>
         <a href="#c4"><i class="fa-solid fa-envelope"> CONTACT</i></a>
-        <a button onclick="lightFunction()" id="light"><i class="fa-solid fa-moon"></i>LIGHT MODE</a>
     </div> 
         
  <!-- HEADER BACKGROUND IMAGE-->
@@ -21,17 +20,6 @@
 </script>
 
 <style>
-.light-mode {
-    background-color: rgba(255, 255, 255, 0.959);
-    transition: .5s ease;
-}
-
-#light {
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 12px;
-    margin-left: 1220px;
-}
 .header-image {
     background-image: url("/images/header.png");
     background-repeat: no-repeat;
