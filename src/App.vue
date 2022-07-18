@@ -32,6 +32,7 @@ import Games from './components/Games.vue'
 import Play from './components/Play.vue'
 
 export default {
+
   name: 'App',
   components: {
    Header, 
@@ -51,5 +52,11 @@ export default {
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
+}
+
+.test{
+  color:white;
+  font-size: 30px;
+  text-align: center;;
 }
 </style>

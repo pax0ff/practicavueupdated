@@ -1,4 +1,15 @@
 <template>
+   <div
+    data-aos="flip-left"
+    data-aos-delay="50"
+    data-aos-duration="2000"
+    data-aos-easing="ease-out-back"
+    data-aos-mirror="false"
+    data-aos-once="true"
+    data-aos-offset="500"
+
+  >
+  <p class="gamestext">GAMES</p>
   <swiper
     :spaceBetween="30"
     :effect="'fade'"
@@ -22,6 +33,7 @@
       ><img src="../../images/slide1.jpg"
     /></swiper-slide>
   </swiper>
+</div>
 </template>
 
 <script>
@@ -49,3 +61,12 @@ export default {
   },
 };
 </script>
+
+<style>
+.gamestext{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+</style>

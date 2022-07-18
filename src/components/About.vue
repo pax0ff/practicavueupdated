@@ -1,4 +1,13 @@
 <template>
+  <div
+    data-aos="fade-down-right"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out-quad"
+    data-aos-mirror="false"
+    data-aos-once="true"
+    anchorPlacement="bottom"
+  >
 <div class="about" id="c1">
     <h1>ABOUT US</h1> 
         <p class="abouttextcss"><em>Providing legendary mobile games.</em></p>
@@ -17,6 +26,8 @@
         </a>
 </div>
 </div>
+</div>
+
 </template>
 
 <script>

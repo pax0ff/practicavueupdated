@@ -1,4 +1,13 @@
 <template>
+  <div
+    data-aos="zoom-out-up"
+    data-aos-delay="100"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="false"
+    data-aos-once="true"
+    data-aos-offset="600"
+  >
 <div class="play" id="c3">
     <h2 class="playtext">PLAY ON:</h2>
         <a href="https://play.google.com/store/apps/details?id=com.TopLexGames.CaptainSmashTok&gl=RO" target="_blank">
@@ -7,6 +16,7 @@
         <a href="https://www.apple.com/app-store/" target="_blank"> 
             <img class="apple" src="../../images/apple.png">
         </a>
+</div>
 </div>
 </template>
 

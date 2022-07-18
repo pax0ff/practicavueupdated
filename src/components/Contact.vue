@@ -1,4 +1,13 @@
 <template>
+   <div
+    data-aos="fade-down-left"
+    data-aos-delay="50"
+    data-aos-duration="1500"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="false"
+    data-aos-once="true"
+    data-aos-offset="900"
+  >
 <div class="contacts" id="c4">
     <h2 class="contacthead">CONTACT US</h2>
         <div class="contactus rright">
@@ -24,6 +33,7 @@
             </form>
         </div>
 
+</div>
 </div>
 </template>
 
