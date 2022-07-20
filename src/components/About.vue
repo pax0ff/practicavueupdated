@@ -12,7 +12,8 @@
     <h1>ABOUT US</h1> 
         <p class="abouttextcss"><em>Providing legendary mobile games.</em></p>
         <p class="abouttextcss"><em>Dedicated team of mobile games developers.</em></p>
-        <p class="abouttextcss"><em>We are based in Bucharest.</em></p><br>               
+        <p class="abouttextcss"><em>We are based in Bucharest.</em></p><br>            
+           
     <h1>FOLLOW US</h1>
     <div class="media">
         <a href="https://facebook.com">

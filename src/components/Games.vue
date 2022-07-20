@@ -7,7 +7,6 @@
     data-aos-mirror="false"
     data-aos-once="true"
     data-aos-offset="500"
-
   >
   <p class="gamestext">GAMES</p>
   <swiper
@@ -20,18 +19,10 @@
     :modules="modules"
     class="mySwiper"
   >
-    <swiper-slide
-      ><img
-        src="../../images/slide1.jpg" /></swiper-slide
-    ><swiper-slide
-      ><img
-        src="../../images/slide2.jpg" /></swiper-slide
-    ><swiper-slide
-      ><img
-        src="../../images/slide3.jpg" /></swiper-slide
-    ><swiper-slide
-      ><img src="../../images/slide1.jpg"
-    /></swiper-slide>
+    <swiper-slide> <img src="../../images/slide1.jpg" /> </swiper-slide>
+    <swiper-slide> <img src="../../images/slide2.jpg" /> </swiper-slide>
+    <swiper-slide> <img src="../../images/slide3.jpg" /> </swiper-slide>
+    <swiper-slide> <img src="../../images/slide1.jpg" /> </swiper-slide>
   </swiper>
 </div>
 </template>
